@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+    font-family: 'Cairo', sans-serif;
+}
+
+/* start Main window */
+
+nav {
+    background-color: #eee;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+nav .logo {
+    font-size: 24px;
+    color: #009688;
+    margin-left: 10px;
+    font-weight: 800;
+    text-decoration: none;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+nav ul li {
+    margin-left: 15px;
+    list-style: none;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #0090d3;
+}
+
+
+nav ul li a:hover, .activ {
+    border-bottom: 2px solid #009688;
+}
+
+.main-content {
+    display: flex;
+    margin: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.main-content .info {
+    background-color: #eee;
+    width: 40%;
+    height: 15em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 5px;
+    text-decoration: none;
+}
+
+.main-content .info h1 {
+    text-align: center;
+    font-size: 45px;
+    color: #0090d3;
+}
+
+footer {
+    background-color: #009688;
+    padding: 8px;
+    margin-top: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+footer h3 {
+    font-size: 20px;
+    font-weight: 800;
+}
+
+/* end Main Window */
+
+/* start Quran screen */
+
+.quran-title, .du3aa-title {
+    font-size: 40px;
+    margin: 10px;
+    background-color: rgb(202, 202, 202);
+    text-align: center;
+    border-radius: 4px;
+}
+
+.quran-info, .du3aa-info {
+    margin: 10px;
+    margin-top: 40px;
+    padding: 6px;
+    text-align: center;
+    border-bottom: 3px solid #009688;
+}
+
+.quran-info h2, .du3aa-info h2 {
+    font-size: 30px;
+    margin: 3px;
+    color: #0090d3;
+    border-bottom: 3px solid #009688;
+}
+
+.quran-info p, .du3aa-info p {
+    font-size: 38px;
+}
